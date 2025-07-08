@@ -1,0 +1,17 @@
+
+services:
+  portfolio-site:
+    image: portfolio-site
+    container_name: portfolio-site
+    build:
+      context: .
+      dockerfile: Dockerfile
+    restart: always
+    ports:
+      - "8086:80"  # Change "8081" par le port que tu veux utiliser
+    networks:
+      - portfolio-network
+
+networks:
+  portfolio-network:
+    # external: true  # Utiliser un réseau Docker existant
