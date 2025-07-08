@@ -92,7 +92,7 @@ const translations = {
         category: 'API Development'
       },
       adaddoFirebase: {
-        name: 'Adaddo Firebase Backend',
+        name: 'Adaddo Eat',
         description: 'Firebase-based backend demonstrating expertise in Realtime Database, Firestore, Authentication, and cloud functions for marketplace operations.',
         category: 'Cloud Backend'
       }
@@ -178,7 +178,7 @@ const translations = {
         category: 'Développement API'
       },
       adaddoFirebase: {
-        name: 'Backend Firebase Adaddo',
+        name: 'Adaddo Eat',
         description: 'Backend basé sur Firebase démontrant l\'expertise en Realtime Database, Firestore, Authentication et fonctions cloud pour les opérations marketplace.',
         category: 'Backend Cloud'
       }
@@ -265,7 +265,7 @@ function App() {
       name: t.projects.adaddoFirebase.name,
       description: t.projects.adaddoFirebase.description,
       category: t.projects.adaddoFirebase.category,
-      technologies: ['Firebase', 'Firestore', 'Realtime DB', 'Auth', 'Cloud Functions'],
+      technologies: ['Firebase Realtime Database', 'Firestore', 'Dart & Flutter', 'Firebase Auth', 'Cloud Functions', "Firebase Storage", "Stripe"],
       // github: 'https://github.com/engel-rich'
     }
   ];
